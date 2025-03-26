@@ -1,0 +1,18 @@
+.cardcontainermain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: auto;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.loading-spinner{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}

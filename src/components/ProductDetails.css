@@ -1,0 +1,37 @@
+.pdpContainer{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.carddescription{
+    width: 50%;
+    margin-top: 5rem;
+
+}
+.carddescription p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.pdpImage{
+    width: 50%;
+    margin-top: 5rem;
+}
+.pdpImage img{
+    width: 30vw;
+    object-fit: contain;
+    margin-top: 20px;
+}
+.addtoCart-btn{
+    background-color: #FFCA2C;
+    max-width: 120px;
+    height: 60px;
+    color: #000010;
+    font-weight: 400;
+}
+@media (max-width:800px){
+    .pdpContainer{
+        flex-direction: column;
+    }
+}
