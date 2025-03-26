@@ -28,7 +28,7 @@ const ProductDetails=()=>{
     }
     useEffect(()=>{
         fetchData();
-    },[id])
+    },[id,fetchData])
     return(
         <>
         <div className="pdpContainer">

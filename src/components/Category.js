@@ -31,7 +31,7 @@ const Category =()=>{
             fetchProducts();
             dispatch(setInputValue(""));
 
-        },[selectedCategory]);
+        },[selectedCategory,dispatch,fetchProducts]);
         const filterProducts = products?.filter((product)=>product.title.toLowerCase().includes(input.toLowerCase()))
     return(
         <>
