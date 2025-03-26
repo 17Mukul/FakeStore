@@ -28,7 +28,7 @@ const Home =()=>{
         } }
         useEffect(()=>{
             fetchProducts();
-        },[fetchProducts]);
+        },[]);
         const filterProducts = products?.filter((product)=>product.title.toLowerCase().includes(input.toLowerCase()));
         console.log(filterProducts)
         return(
